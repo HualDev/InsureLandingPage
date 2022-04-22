@@ -85,7 +85,7 @@ h1{
     line-height: 1.5;
 }
 
-.header-words button{
+button{
     display: block;
     margin: 2rem auto 0;
     background-color: transparent;
@@ -126,6 +126,23 @@ h3{
     width: 90%;
     text-align: center;
     margin: auto;
+}
+
+.how{
+    width: 90%;
+    background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: var(--darkViolet);
+    padding: 3rem 2rem;
+    color: var(--veryLightGray);
+    margin: 5rem auto;
+}
+
+footer{
+    background-image: url('./images/bg-pattern-footer-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: var(--veryLightGray);
 }
 
 
