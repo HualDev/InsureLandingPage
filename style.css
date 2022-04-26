@@ -48,8 +48,10 @@ h1,h2,h3{
 
 .intro{
     background-image: url('./images/image-intro-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
-    height: 28rem;
+    min-height: 28rem;
     z-index: 1;
 }
 
@@ -189,6 +191,43 @@ footer h3{
     font-size: 1rem;
     letter-spacing: 2px;
     margin-bottom: 0.5rem;
+}
+
+@media (min-width:600px) {
+  #hamburger{
+      display: none;
+  }  
+
+  nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5rem;
+  }
+
+  .subMenu{
+      display: flex;
+      width: auto;
+      position: relative;
+      background-image: none;  
+      background-color: transparent;
+      color: var(--darkGrayishViolet);  
+      height: auto;
+      padding: 1rem;
+      margin: 0;
+      gap: 1.5rem;
+      align-items: center;
+  }
+
+  .subMenu h2{
+      font-size: 0.7rem;
+  }
+
+  .plans{
+      border: 3px solid black;
+      padding: 0.5rem 1.5rem;
+      color: black;
+      font-weight: 800;
+  }
 }
 
 
