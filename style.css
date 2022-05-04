@@ -25,6 +25,7 @@ h1,h2,h3{
     margin: 2rem;
 }
 
+/* The CSS for the mobile menu. */
 .subMenu{
     display: none;
     position: absolute;
